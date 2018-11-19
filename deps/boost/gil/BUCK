@@ -1,0 +1,14 @@
+prebuilt_cxx_library(
+  name = 'gil', 
+  header_namespace = 'boost/gil', 
+  header_only = True, 
+  exported_headers = subdir_glob([
+    ('', '**/*.hpp'), 
+  ]), 
+  deps = [
+    'buckaroo.github.buckaroo-pm.boost-gil//:gil', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

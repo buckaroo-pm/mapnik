@@ -1,0 +1,12 @@
+prebuilt_cxx_library(
+  name = 'sparsehash', 
+  header_namespace = 'mapnik/sparsehash', 
+  header_only = True, 
+  exported_headers = subdir_glob([
+    ('', '**/*.h'), 
+    ('', 'dense_hash_map'), 
+  ]), 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

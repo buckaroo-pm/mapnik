@@ -1,0 +1,14 @@
+prebuilt_cxx_library(
+  name = 'geometry', 
+  header_namespace = 'boost/geometry', 
+  header_only = True, 
+  exported_headers = subdir_glob([
+    ('', '**/*.hpp'), 
+  ]), 
+  deps = [
+    'buckaroo.github.buckaroo-pm.boost-geometry//:geometry', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

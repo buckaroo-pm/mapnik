@@ -1,0 +1,20 @@
+cxx_library(
+  name = 'agg',
+  header_namespace = '',
+  exported_headers = subdir_glob([
+    ('include', '**/*.h'),
+  ]), 
+  srcs = glob([
+    'src/**/*.cpp', 
+  ]),
+  deps = [
+    '//:config', 
+    '//:warning-ignore', 
+    '//deps/mapnik/sparsehash:sparsehash', 
+    '//deps/boost/gil:gil', 
+    'buckaroo.github.buckaroo-pm.boost-gil//:gil', 
+  ],
+  visibility = [
+    'PUBLIC', 
+  ]
+)

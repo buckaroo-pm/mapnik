@@ -1,0 +1,117 @@
+targets = [ "//:mapnik" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/icu4c"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-detail"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-geometry"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-utility"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-gil"
+version = "tag=boost-1.68.0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-tti"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-optional"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-variant"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-filesystem"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-assign"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-algorithm"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-property_tree"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-spirit"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-bimap"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-fusion"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-msm"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-regex"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-qvm"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-polylabel"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/freetype2"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libtiff"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libjpeg"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libpng"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/harfbuzz"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/libwebp"
+version = "branch=master"

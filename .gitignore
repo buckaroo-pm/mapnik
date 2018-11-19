@@ -56,3 +56,11 @@ demo/viewer/ui_layer_info.h
 test/standalone/*-bin
 test/unit/run
 test/visual/run
+.buckd
+buck-out
+cache
+buckaroo
+buckaroo-packages
+.buckconfig.local
+.buckconfig.d
+BUCKAROO_DEPS

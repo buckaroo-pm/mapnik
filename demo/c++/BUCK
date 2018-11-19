@@ -1,0 +1,10 @@
+cxx_binary(
+  name = 'c++', 
+  srcs = [
+    'rundemo.cpp', 
+  ], 
+  deps = [
+    '//:mapnik', 
+    '//deps/agg:agg', 
+  ], 
+)

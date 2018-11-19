@@ -1,0 +1,13 @@
+cxx_library(
+  name = 'csv', 
+  header_namespace = '', 
+  exported_headers = subdir_glob([
+    ('', '**/*.hpp'), 
+  ]), 
+  srcs = glob([
+    '**/*.cpp', 
+  ]), 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)
